@@ -16,3 +16,16 @@ Fix PATH:
   sudo apt-get install --reinstall nodejs-legacy     # fix /usr/bin/node
 
   https://askubuntu.com/questions/426750/how-can-i-update-my-nodejs-to-the-latest-version
+
+
+
+  # Uinstall oh-my-zsh
+
+  .oh-my-zsh
+  ls
+  tools
+  ls
+  sh uninstall.sh
+  y
+
+  https://www.youtube.com/watch?v=L1gRxcykSb8
