@@ -7,7 +7,7 @@
 `sudo apt install nodejs`
 
 ### Link
-`https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/`
+https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/
 
 
 
@@ -18,7 +18,7 @@
 
 `sudo apt-get install --reinstall nodejs-legacy     # fix /usr/bin/node`
 
-`https://askubuntu.com/questions/426750/how-can-i-update-my-nodejs-to-the-latest-version`
+https://askubuntu.com/questions/426750/how-can-i-update-my-nodejs-to-the-latest-version
 
 
 
@@ -42,7 +42,8 @@
 `sudo apt install mpv`
 
 ### Link
-`https://launchpad.net/~mc3man/+archive/ubuntu/mpv-tests`
+https://launchpad.net/~mc3man/+archive/ubuntu/mpv-tests
+ 
 
 # Install SMPlayer
   `sudo add-apt-repository ppa:rvm/smplayer`\
