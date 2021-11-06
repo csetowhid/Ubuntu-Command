@@ -68,3 +68,7 @@ https://launchpad.net/~mc3man/+archive/ubuntu/mpv-tests
   ### Uninstall
   To uninstall run /opt/xdman/uninstall.sh as root like this:\
   `sudo /opt/xdman/uninstall.sh`
+
+
+  ### Link
+  https://itsfoss.com/xtreme-download-manager-install/
