@@ -11,8 +11,8 @@ Before Running Any Command You Need To Run
 ### Install 7.4
 - `sudo apt install php-fpm`
 
-Once the installation is completed, the FPM service will start automatically. To check the status of the service, run\
-`systemctl status php7.4-fpm`
+Once the installation is completed, the FPM service will start automatically. To check the status of the service, run
+- `systemctl status php7.4-fpm` 
 
 
 ### Link
