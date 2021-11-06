@@ -54,3 +54,17 @@ https://launchpad.net/~mc3man/+archive/ubuntu/mpv-tests
 
   # Zoom
   `sudo snap install zoom-client`
+
+
+  # Xtreme Download Manager
+  ### Download
+  https://xtremedownloadmanager.com/#downloads
+  ### Install
+  Go to the directory first & Extract: \
+  Now run the installer script and follow the instrcution:\
+  `sudo ./install.sh`
+
+
+  ### Uninstall
+  To uninstall run /opt/xdman/uninstall.sh as root like this:\
+  `sudo /opt/xdman/uninstall.sh`
