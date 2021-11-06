@@ -1,6 +1,32 @@
 # Ubuntu Commands
 
-# Node Js Install
+Before Running Any Command You Need To Run\
+`sudo apt update`
+
+# Curl
+### Install
+`sudo aot install curl`
+
+# PHP
+### Install 7.4
+`sudo apt install php-fpm`
+
+Once the installation is completed, the FPM service will start automatically. To check the status of the service, run\
+`systemctl status php7.4-fpm`
+
+
+# Composer
+### Install
+First\
+`curl -sS https://getcomposer.org/installer -o composer-setup.php`\
+Then\
+`sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer`
+
+### Link
+https://linuxize.com/post/how-to-install-php-on-ubuntu-20-04
+
+# Node Js 
+### Install
 
 `curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -`
 
@@ -11,7 +37,7 @@ https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/
 
 
 
-# Node Js Update
+### Update
 `sudo n latest`
 
 ### Fix PATH:
@@ -22,7 +48,8 @@ https://askubuntu.com/questions/426750/how-can-i-update-my-nodejs-to-the-latest-
 
 
 
-  # Uinstall oh-my-zsh
+  # oh-my-zsh
+  ### Uinstall
 
   `.oh-my-zsh`\
   `ls`\
