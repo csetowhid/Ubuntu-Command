@@ -30,13 +30,45 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer
 
 # Valet
 ### Install
+Step - 1 \
 `sudo apt-get install network-manager libnss3-tools jq xsel`\
+Step - 2 \
 `composer global require cpriego/valet-linux`\
+Step - 3 \
 `test -d ~/.composer && bash ~/.composer/vendor/bin/valet install || bash ~/.config/composer/vendor/bin/valet install`
-
 ### Link
 https://www.susantokun.com/cara-install-laravel-valet-di-linux/
 https://cpriego.github.io/valet-linux/faq
+
+# Mysql-Server 
+### Install
+`sudo apt install mysql-server -y`
+
+### After Install
+Run\
+`sudo mysql`
+Update Password
+`ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'P@ssw0rd';`\
+Flush\
+`FLUSH PRIVILEGES;`
+Exit
+`exit`
+
+### Link
+https://www.youtube.com/watch?v=cyNLSlL-BXQ&t=244s
+
+# phpmyadmin 
+### Install
+`sudo apt install phpmyadmin php-mbstring php-zip php-gd php-json php-curl`\
+Then Set Mysql application Password
+### Link
+`https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-ubuntu-20-04`
+
+### Symlink
+`ln -s /usr/share/phpmyadmin /var/www/phpmyadmin`
+
+### Link
+https://gist.github.com/MnMTech/2cb40b6bf892c22eac26
 
 # Node Js 
 ### Install
