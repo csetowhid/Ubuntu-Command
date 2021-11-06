@@ -1,28 +1,27 @@
 # Ubuntu Commands
 
-Before Running Any Command You Need To Run\
-`sudo apt update`
+Before Running Any Command You Need To Run
+- `sudo apt update`
 
 # Curl
 ### Install
-`sudo aot install curl`
+- `sudo aot install curl`
 
 # PHP
 ### Install 7.4
-`sudo apt install php-fpm`
+- `sudo apt install php-fpm`
 
 Once the installation is completed, the FPM service will start automatically. To check the status of the service, run\
 `systemctl status php7.4-fpm`
+
 
 ### Link
 https://linuxize.com/post/how-to-install-php-on-ubuntu-20-04
 
 # Composer
 ### Install
-First\
-`curl -sS https://getcomposer.org/installer -o composer-setup.php`\
-Then\
-`sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer`
+- `curl -sS https://getcomposer.org/installer -o composer-setup.php` 
+- `sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer`
 
 ### Link
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-20-04
@@ -30,15 +29,13 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer
 
 # Valet
 ### Install
-Step - 1 \
-`sudo apt-get install network-manager libnss3-tools jq xsel`\
-Step - 2 \
-`composer global require cpriego/valet-linux`\
-Step - 3 \
-`test -d ~/.composer && bash ~/.composer/vendor/bin/valet install || bash ~/.config/composer/vendor/bin/valet install`
+- `sudo apt-get install network-manager libnss3-tools jq xsel`
+- `composer global require cpriego/valet-linux`
+- `test -d ~/.composer && bash ~/.composer/vendor/bin/valet install || bash ~/.config/composer/vendor/bin/valet install` 
+
 ### Link
-https://www.susantokun.com/cara-install-laravel-valet-di-linux/
-https://cpriego.github.io/valet-linux/faq
+- https://www.susantokun.com/cara-install-laravel-valet-di-linux/
+- https://cpriego.github.io/valet-linux/faq
 
 # Mysql-Server 
 ### Install
