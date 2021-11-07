@@ -1,15 +1,21 @@
 # Ubuntu Commands
 
 Before Running Any Command You Need To Run
-- `sudo apt update`
+~~~
+ sudo apt update
+~~~
 
 # Curl
 ### Install
-- `sudo aot install curl`
+~~~
+sudo aot install curl
+~~~
 
 # PHP
 ### Install 7.4
-- `sudo apt install php-fpm`
+~~~
+sudo apt install php-fpm
+~~~
 
 Once the installation is completed, the FPM service will start automatically. To check the status of the service, run
 - `systemctl status php7.4-fpm` 
