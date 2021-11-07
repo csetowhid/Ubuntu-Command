@@ -17,8 +17,10 @@ sudo aot install curl
 sudo apt install php-fpm
 ~~~
 
-Once the installation is completed, the FPM service will start automatically. To check the status of the service, run
-- `systemctl status php7.4-fpm` 
+ To check the status of the service, run
+~~~
+systemctl status php7.4-fpm
+~~~
 
 
 ### Link
@@ -26,8 +28,12 @@ https://linuxize.com/post/how-to-install-php-on-ubuntu-20-04
 
 # Composer
 ### Install
-- `curl -sS https://getcomposer.org/installer -o composer-setup.php` 
-- `sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer`
+~~~
+curl -sS https://getcomposer.org/installer -o composer-setup.php
+~~~
+~~~
+sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+~~~
 
 ### Link
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-20-04
@@ -35,9 +41,15 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer
 
 # Valet
 ### Install
-- `sudo apt-get install network-manager libnss3-tools jq xsel`
-- `composer global require cpriego/valet-linux`
-- `test -d ~/.composer && bash ~/.composer/vendor/bin/valet install || bash ~/.config/composer/vendor/bin/valet install` 
+~~~
+sudo apt-get install network-manager libnss3-tools jq xsel
+~~~
+~~~
+composer global require cpriego/valet-linux
+~~~
+~~~
+test -d ~/.composer && bash ~/.composer/vendor/bin/valet install || bash ~/.config/composer/vendor/bin/valet install
+~~~
 
 ### Link
 - https://www.susantokun.com/cara-install-laravel-valet-di-linux/
@@ -45,27 +57,39 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer
 
 # Mysql-Server 
 ### Install
-- `sudo apt install mysql-server -y`
-- `sudo mysql`
+~~~
+sudo apt install mysql-server -y
+~~~
+~~~
+sudo mysql
+~~~
 ### Update Password
 ```
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'P@ssw0rd';
 ```
-- `FLUSH PRIVILEGES;`
+~~~
+FLUSH PRIVILEGES;
+~~~
 
-- `exit`
+~~~
+exit
+~~~
 
 ### Link
 https://www.youtube.com/watch?v=cyNLSlL-BXQ&t=244s
 
 # phpmyadmin 
 ### Install
-- `sudo apt install phpmyadmin php-mbstring php-zip php-gd php-json php-curl`
+~~~
+sudo apt install phpmyadmin php-mbstring php-zip php-gd php-json php-curl
+~~~
 ### Link
-- `https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-ubuntu-20-04`
+- https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-ubuntu-20-04`
 
 ### Symlink
-- `ln -s /usr/share/phpmyadmin /var/www/phpmyadmin`
+~~~
+ln -s /usr/share/phpmyadmin /var/www/phpmyadmin
+~~~
 
 ### Link
 - https://gist.github.com/MnMTech/2cb40b6bf892c22eac26
@@ -73,9 +97,12 @@ https://www.youtube.com/watch?v=cyNLSlL-BXQ&t=244s
 # Node Js 
 ### Install
 
-- `curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -`
-
-- `sudo apt install nodejs`
+~~~
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+~~~
+~~~
+sudo apt install nodejs
+~~~
 
 ### Link
 https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/
@@ -83,12 +110,15 @@ https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/
 
 
 ### Update
-`sudo n latest`
+~~~
+sudo n latest
+~~~
 
 ### Fix PATH:
-
-`sudo apt-get install --reinstall nodejs-legacy     # fix /usr/bin/node`
-
+~~~
+sudo apt-get install --reinstall nodejs-legacy     # fix /usr/bin/node
+~~~
+### Link
 https://askubuntu.com/questions/426750/how-can-i-update-my-nodejs-to-the-latest-version
 
 
