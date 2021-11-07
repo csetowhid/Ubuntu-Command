@@ -24,7 +24,7 @@ systemctl status php7.4-fpm
 
 
 ### Link
-https://linuxize.com/post/how-to-install-php-on-ubuntu-20-04
+- [Visit Here](https://linuxize.com/post/how-to-install-php-on-ubuntu-20-04)
 
 # Composer
 ### Install
@@ -36,7 +36,7 @@ sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
 ~~~
 
 ### Link
-https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-20-04
+- [Visit Here](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-20-04)
 
 
 # Valet
