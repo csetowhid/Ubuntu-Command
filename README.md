@@ -52,8 +52,8 @@ test -d ~/.composer && bash ~/.composer/vendor/bin/valet install || bash ~/.conf
 ~~~
 
 ### Link
-- https://www.susantokun.com/cara-install-laravel-valet-di-linux/
-- https://cpriego.github.io/valet-linux/faq
+- [Cara Install Laravel Valet di Linux](https://www.susantokun.com/cara-install-laravel-valet-di-linux/)
+- [Valet Linux Faq](https://cpriego.github.io/valet-linux/faq)
 
 # Mysql-Server 
 ### Install
@@ -76,7 +76,7 @@ exit
 ~~~
 
 ### Link
-https://www.youtube.com/watch?v=cyNLSlL-BXQ&t=244s
+- [Visit Here](https://www.youtube.com/watch?v=cyNLSlL-BXQ&t=244s)
 
 # phpmyadmin 
 ### Install
@@ -84,7 +84,7 @@ https://www.youtube.com/watch?v=cyNLSlL-BXQ&t=244s
 sudo apt install phpmyadmin php-mbstring php-zip php-gd php-json php-curl
 ~~~
 ### Link
-- https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-ubuntu-20-04`
+- [How To Install and Secure phpMyAdmin on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-ubuntu-20-04`)
 
 ### Symlink
 ~~~
