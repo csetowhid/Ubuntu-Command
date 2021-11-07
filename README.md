@@ -39,40 +39,37 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer
 
 # Mysql-Server 
 ### Install
-`sudo apt install mysql-server -y`
+- `sudo apt install mysql-server -y`
+- `sudo mysql`
+### Update Password
+```
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'P@ssw0rd';
+```
+- `FLUSH PRIVILEGES;`
 
-### After Install
-Run\
-`sudo mysql`
-Update Password
-`ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'P@ssw0rd';`\
-Flush\
-`FLUSH PRIVILEGES;`
-Exit
-`exit`
+- `exit`
 
 ### Link
 https://www.youtube.com/watch?v=cyNLSlL-BXQ&t=244s
 
 # phpmyadmin 
 ### Install
-`sudo apt install phpmyadmin php-mbstring php-zip php-gd php-json php-curl`\
-Then Set Mysql application Password
+- `sudo apt install phpmyadmin php-mbstring php-zip php-gd php-json php-curl`
 ### Link
-`https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-ubuntu-20-04`
+- `https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-ubuntu-20-04`
 
 ### Symlink
-`ln -s /usr/share/phpmyadmin /var/www/phpmyadmin`
+- `ln -s /usr/share/phpmyadmin /var/www/phpmyadmin`
 
 ### Link
-https://gist.github.com/MnMTech/2cb40b6bf892c22eac26
+- https://gist.github.com/MnMTech/2cb40b6bf892c22eac26
 
 # Node Js 
 ### Install
 
-`curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -`
+- `curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -`
 
-`sudo apt install nodejs`
+- `sudo apt install nodejs`
 
 ### Link
 https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/
