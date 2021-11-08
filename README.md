@@ -174,3 +174,34 @@ https://launchpad.net/~mc3man/+archive/ubuntu/mpv-tests
 
   ### Link
   https://itsfoss.com/xtreme-download-manager-install/
+
+
+  # Bijoy For Ubuntu
+  ### Download
+  - [Download](https://www.techtdbangla.com/2020/05/best-bangla-typing-software-bijoy.html)
+
+  ### Install
+  ~~~
+  sudo apt-get install ibus-m17n
+  ~~~
+  ~~~
+  sudo chmod 777 /usr/share/m17n/
+  ~~~
+  ~~~
+  sudo chmod 777 /usr/share/m17n/icons
+  ~~~
+  ~~~
+  sudo chmod 777 /var/lib/dpkg/info/m17n-db.list
+  ~~~
+  ~~~
+  gedit /var/lib/dpkg/info/m17n-db.list
+  ~~~
+  ~~~
+/usr/share/m17n/icons/bn-bijoyClassic.png
+/usr/share/m17n/bn-bijoyClassic.mim
+/usr/share/m17n/icons/bn-bijoyUnicode.png
+/usr/share/m17n/bn-bijoyUnicode.mim
+~~~
+
+### Link
+- [Best Bangla Typing Software](https://www.techtdbangla.com/2020/05/best-bangla-typing-software-bijoy.html)
