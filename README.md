@@ -8,7 +8,7 @@ Before Running Any Command You Need To Run
 # Curl
 ### Install
 ~~~
-sudo aot install curl
+sudo apt install curl
 ~~~
 
 # PHP
