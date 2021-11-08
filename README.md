@@ -15,6 +15,7 @@ sudo apt install curl
 ### Install 7.4
 ~~~
 sudo apt install php-fpm
+sudo apt install php7.4-fpm
 ~~~
 
  To check the status of the service, run
