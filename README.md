@@ -320,3 +320,17 @@ gedit /var/lib/dpkg/info/m17n-db.list
 ### Link
 
 - [Best Bangla Typing Software](https://www.techtdbangla.com/2020/05/best-bangla-typing-software-bijoy.html)
+
+# Journalctl Cache Clear
+`journalctl --disk-usage`\
+`sudo journalctl --rotate`
+- Delete journal logs older than X days:\
+`sudo journalctl --vacuum-time=2days`
+- Delete log files until the disk space taken falls below the specified size:\
+`sudo journalctl --vacuum-size=100M`
+- Delete old logs and limit file number to X:\
+`sudo journalctl --vacuum-files=5`
+
+
+### Link
+[Free up Disk Space – Clear Systemd Journal Logs in Ubuntu 20.04](https://ubuntuhandbook.org/index.php/2020/12/clear-systemd-journal-logs-ubuntu/)
