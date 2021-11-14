@@ -5,16 +5,6 @@ Before Running Any Command You Need To Run
 ```
  sudo apt update
 ```
-
-# Git Force Commit
-
-`git add .`\
-`git commit --amend` \
-`ctrl + o`\
-`Enter`\
-`ctrl + x`\
-`git push origin <branch name> --force`
-
 # Curl
 
 ### Install
