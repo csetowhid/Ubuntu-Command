@@ -218,6 +218,11 @@ Save And Exit. Then Set The Terminal Design
 
 - [Make your terminal beautiful and fast with ZSH shell and PowerLevel10K](https://medium.com/@shivam1/make-your-terminal-beautiful-and-fast-with-zsh-shell-and-powerlevel10k-6484461c6efb)
 
+### Install Meslo Nerd Font
+- [powerlevel10k](https://github.com/romkatv/powerlevel10k)
+
+Change Font From Terminal Preferences To
+- MesloLGS NF Regular 
 ### Uninstall
 
 `.oh-my-zsh`\
@@ -229,7 +234,7 @@ Save And Exit. Then Set The Terminal Design
 
 ### Link
 
-`https://www.youtube.com/watch?v=L1gRxcykSb8`
+- [Uninstall Oh My Zsh from Kali Linux](https://www.youtube.com/watch?v=L1gRxcykSb8)
 
 # Install MPV
 
