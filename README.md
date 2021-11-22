@@ -51,6 +51,9 @@ sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
 # Valet
 
 ### Install
+```
+sudo apt-get install php7.4-curl
+```
 
 ```
 sudo apt-get install network-manager libnss3-tools jq xsel
