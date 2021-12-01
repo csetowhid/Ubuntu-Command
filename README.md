@@ -15,7 +15,7 @@ Now you can use dpkg to install Chrome from the downloaded DEB file:
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 ```
 Link
-- [Visit Here](https://itsfoss.com/install-chrome-ubuntu)
+- [Install Google Chrome on Ubuntu](https://itsfoss.com/install-chrome-ubuntu)
 # Curl
 
 ### Install
