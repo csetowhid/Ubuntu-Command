@@ -15,10 +15,14 @@ sudo apt install curl
 
 # PHP
 
-### Install 7.4
+### Install
 
 ```
 sudo apt install php-fpm
+```
+### Install 7.4
+
+```
 sudo apt install php7.4-fpm
 ```
 
