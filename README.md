@@ -110,3 +110,10 @@ gedit /var/lib/dpkg/info/m17n-db.list
 
 ### Link
 [Free up Disk Space – Clear Systemd Journal Logs in Ubuntu 20.04](https://ubuntuhandbook.org/index.php/2020/12/clear-systemd-journal-logs-ubuntu/)
+
+
+# Drive Permission
+### permission in create folder and file on hard drive
+```
+sudo chmod -R a+rwx /path/to/folder
+```
